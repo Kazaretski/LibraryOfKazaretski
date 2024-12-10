@@ -95,34 +95,19 @@ namespace LibraryOfKazaretski
                     Console.WriteLine("\n");
                     Program.ColText("[1] ISBN: ");
                     if (b.Isbn == 0) Console.WriteLine("[...]");
-                    else
-                    {
-                        Console.WriteLine(b.Isbn);
-                    }
+                    else Console.WriteLine(b.Isbn);
                     Program.ColText("[2] Genre: ");
                     if (b.Genre == Genre.Unspecified) Console.WriteLine("[...]");
-                    else
-                    {
-                        Console.WriteLine(b.Genre.ToString());
-                    }
+                    else Console.WriteLine(b.Genre.ToString());
                     Program.ColText("[3] Page Count: ");
                     if (b.PageCount == 0) Console.WriteLine("[...]");
-                    else
-                    {
-                        Console.WriteLine(b.PageCount);
-                    }
+                    else Console.WriteLine(b.PageCount);
                     Program.ColText("[4] Publisher: ");
                     if (b.Publisher is null || b.Publisher == "") Console.WriteLine("[...]");
-                    else
-                    {
-                        Console.WriteLine(b.Publisher);
-                    }
+                    else Console.WriteLine(b.Publisher);
                     Program.ColText("[5] Publish Year: ");
                     if (b.PublishYear == 0) Console.WriteLine("[...]");
-                    else
-                    {
-                        Console.WriteLine(b.PublishYear);
-                    }
+                    else Console.WriteLine(b.PublishYear);
                     Program.ColText("[6] Price: ");
                     if (b.Price == 0) Console.WriteLine("[...]");
                     else Console.WriteLine(b.Price);
